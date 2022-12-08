@@ -11,8 +11,8 @@ import { Team } from '../models/team.model';
 })
 export class LeMan24Service {
 
-  // private url = "http://localhost:8080";
-  private url = "http://192.168.182.155:8080";
+  private url = "http://localhost:8080";
+  // private url = "http://192.168.182.155:8080";
 
   private carList: Car[] = [];
   private pilotList: Pilot[] = [];
